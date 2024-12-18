@@ -1,8 +1,7 @@
 #!/bin/bash
- 
-
 
 source ./common.sh
+
 check_root
 
 echo "Please eb=nter DB password:"

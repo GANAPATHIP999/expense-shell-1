@@ -3,7 +3,7 @@
 set -e
 
 handle_error(){
-    echo "error occured at line number: $1, error command: $2"
+    echo "Error occured at line number: $1, error command: $2"
 
     }
 
