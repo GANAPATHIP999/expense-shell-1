@@ -21,7 +21,6 @@ systemctl start mysqld &>>$LOGFILE
 #VALIDATE $? "Setting the root password"
 
 #Below code wull be useful for idempotatent nature
-
 mysql -h db.aws-9s.shop -uroot -p${mysql_root_password} -e 'show databases;' &>>$LOGFILE
 if [ $? -ne 0 ]
  then 
