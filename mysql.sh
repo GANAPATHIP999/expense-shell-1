@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source ./common.sh
-check_root()
+check_root
 
 echo "Please eb=nter DB password:"
 read -s mysql_root_password
