@@ -7,7 +7,7 @@ handle_error(){
 
     }
 
-trap 'handle_error ${LINENO} "BASH_COMMAND"'ERR
+trap 'handle_error ${LINENO} "BASH_COMMAND"' ERR
 
 USERID=$(id -u)
 
