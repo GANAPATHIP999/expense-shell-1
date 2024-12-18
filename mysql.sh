@@ -4,7 +4,7 @@ source ./common.sh
 
 check_root
 
-echo "Please eb=nter DB password:"
+echo "Please enter DB password:"
 read -s mysql_root_password
 
 dnf install mysql-server -y &>>$LOGFILE
